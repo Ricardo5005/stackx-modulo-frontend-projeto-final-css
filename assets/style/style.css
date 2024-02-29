@@ -1,0 +1,516 @@
+/* 
+    resetar valores padrão do browser 
+    limitar para que os elementos filhos não vazem do elemento pai
+    definir tipo de fonte dos elementos
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* definir cor de fundo, largura e cor da fonte */
+.c-body, .c-body__page-succefull {
+    background-color: #151515;
+    width: 100vw;
+    color: #fff;
+}
+
+/* definir cor de fundo e cor da fonte */
+.c-body__page-succefull {
+    background-color: #242424;
+    color: #fff;
+}
+
+/* definir margem, largura máxima, espaçamento, posicionamento, alinhamento, direcionamento, borda e imagem de fundo */
+.c-body__page-succefull div {
+    margin: 20rem auto;
+    max-width: 80%;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    background-image: url("../img/pattern-rings.svg");
+    background-repeat: no-repeat;
+    background-size: 31.5%;
+    background-position: center center;
+}
+
+/* definir margem, tamanho da fonte, espaçamento e altura */
+.c-body__page-succefull div h1 {
+    margin: 2rem;
+    font-size: 3rem;
+    letter-spacing: 0.229rem;
+    line-height: 2.6rem;
+}
+
+/* definir borda, retirar sublinhado, tipo de cursos, tamanho da fonte, espaçamento da fonte, altura da fonte, negritar fonte, efeito */
+.c-body__page-succefull div a {
+    border-bottom: 0.15rem solid #4de29f;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    letter-spacing: 0.229rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    transition: .4s;
+}
+
+/* definir alteracao de estado - cor da fonte */
+.c-body__page-succefull div a:hover{
+    color: #4de29f;
+}
+
+/* definir largura máxima e margem */
+main {
+    max-width: 58.5%;
+    margin: 1.8rem auto;
+    margin-bottom: 0;
+}
+
+/* definir tamanho da fonte, espaçamento, retirar sublinhado, borda */
+a.c-text__name-topo{
+    font-size: 2.0rem;
+    letter-spacing: -0.044rem;
+    text-decoration: none;
+}
+
+/* definir tamanho da fonte, espaçamento, margem, negrito, borda */
+.c-text__heading-secundary {
+    font-size: 5.36rem;
+    letter-spacing: -0.25rem;
+    margin-bottom: 3.73rem;
+    line-height: 1;
+    font-weight: 700;
+}
+
+/* definir alinhamento, espaçamento */
+.header__social-box {
+    display: flex;
+    align-items: center;
+    gap: 2.467rem;
+}
+
+/* definir cor, borda, alinhamento, tamanho da fonte, negrito, espaçamento,tipo de cursor */
+.c-text__contact {
+    color: hsl(0, 0%, 100%);
+    border-bottom: 2px solid hsl(153, 71%, 59%);
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.0rem;
+    font-weight: 600;
+    letter-spacing: 0.229rem;
+    line-height: 2.6rem;
+    padding-bottom: 0.1rem;
+    cursor: pointer;
+}
+
+/* definir cor da fonte, borda, alinhamento, reira sublinhado, tamanho da fonte, negrito, espaçamento,  tipo de cursor, margem */
+.c-section-tree__contact-two {
+    color: hsl(0, 0%, 100%);
+    border-bottom: 2px solid hsl(153, 71%, 59%);
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.0rem;
+    font-weight: 600;
+    letter-spacing: 0.229rem;
+    line-height: 2.6rem;
+    padding-bottom: 0.1rem;
+    cursor: pointer;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+/* definir margem, espaçamento, altura */
+.c-text__text_about {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-right: 40rem;
+    letter-spacing: 0.15rem;
+    line-height: 1.5;
+}
+
+/* definir margem */
+.c-text__div-one {
+    margin-top: 13rem;
+}
+
+/* definir cor de fundo */
+.c-text__section-one {
+    background-color: #151515;
+}
+
+/* definir cor de fundo */
+.c-body__section-two {
+    background-color: #151515;
+}
+
+/* definir cor de fundo */
+.c-body__section-tree {
+    background-color: #151515;
+}
+
+/* definir cor de fundo */
+.c-footer__section-four {
+    background-color: #242424;
+}
+
+/* defnir posição da flutuação, margem */
+.c-text__spiral {
+    float: right;
+    margin-right: 53rem;
+    margin-top: -34rem;
+}
+
+/* definir posição da flutuação, margem */
+.c-text__circle {
+    float: right;
+    margin-right: -4rem;
+    margin-top: -3rem;
+}
+
+/* definir posição da flutuação, margem, borda */
+.c-text__photo {
+    float: right;
+    margin-top: -39rem;
+    bottom: 7rem;
+    opacity: 0.8;
+}
+
+/* definir alinhamento, margem */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+/* definir alinhamento, espaçamento */
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+/* definir margem, largura, sobreposição de camada */
+header nav a {
+    margin: 0.50rem;
+    width: 100%;
+    z-index: 1;
+}
+
+/* definir borda */
+.c-text__name-span {
+    border-bottom: 0.25rem solid #4de29f;
+}
+
+/* definir cor */
+a {
+    color: #F7F7F7;
+}
+
+/* definir cor, alinhamento, margem */
+p {
+    color: #D1D1D1;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* definir alinhamento, margem */
+.c-section-two__hard-left{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+/* definir alinhamento, margem */
+.c-section-two__hard-right {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7rem;
+}
+
+/* limitar extravasamento */
+.c-section-two__hard-left>div,
+.c-section-two__hard-right>div {
+    box-sizing: border-box;
+}
+
+/* definir margem */
+.c-section-two__hard-left>div:last-child,
+.c-section-two__hard-right>div:last-child {
+    margin-right: 0;
+}
+
+/* definir tamanho da fonte */
+.c-body_section-two .c-section-two_hard-left h3 {
+    font-size: 2.7rem;
+}
+
+/* definir tamanho da fonte */
+.c-body_section-two .c-section-two_hard-left p {
+    font-size: 1.34rem;
+}
+
+/* definir tamanho da fonte */
+.c-body_section-two .c-section-two_hard-right h3 {
+    font-size: 2.7rem;
+}
+
+/* definir tamanho da fonte */
+.c-body_section-two .c-section-two_hard-right p {
+    font-size: 1.34rem;
+}
+
+/* definir alinnhamento por grade, espaçamento */
+.c-body__section-tree {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 6rem;
+}
+
+/* definir tamanho da fonte */
+.c-body__section-tree .c-section-tree__title-projects {
+    font-size: 5rem;
+}
+
+/* definir alinhamento e cor do sublinhado */
+.c-body__section-tree .c-section-tree__title-contact {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: #D1D1D1;
+}
+
+/* definir borda, alinhamento por grade, espaçamento, margem */
+.c-section-tree__projects-boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(480px, auto));
+    justify-content: space-between;
+    gap: 6.9rem .25rem;
+    margin-bottom: 10rem;
+}
+
+/* definir borda, margem */
+.c-section-tree__projects-boxes > div {
+    margin-right: 0;
+}
+
+/* definir borda, margem */
+.c-section-tree__projects-boxes > div:last-child {
+    margin-right: 0;
+}
+
+/* definir borda, largura máxima, largura, altura */
+.c-section-tree__projects-boxes > div > img {
+    max-width: 100%;
+    width: 541.67px;
+    height: 401.23px;
+}
+
+/* definir alinhamento, margem, cor */
+.c-section-tree__projects-language {
+    display: inline-block;
+    margin-right: 10px;
+    color: #d1d1d1;
+}
+
+/* definir tamanho da fonte, altura, transformar para maiúscula, borda */
+.c-section-tree__title-tertiary {
+    font-size: 1.4rem;
+    line-height: 3.5rem;
+    text-transform: uppercase;
+}
+
+/* definir largura, alinhamento por grade, espaçamento, margem, borda */
+.c-footer__form-general {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15rem;
+    margin-right: 0;
+}
+
+/* definir margem */
+.c-footer__text-end {
+    margin-top: 4.55rem;
+}
+
+/* definir tamanho da fonte */
+h1.c-footer__contact-end {
+    font-size: 5rem;
+}
+
+/* definir margem, espaçamento, altura */
+.c-footer__description {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-right: 4rem;
+    letter-spacing: 0.15rem;
+    line-height: 2;
+}
+
+/* definir tipo de fonte, negrito, letras maiúsculas, cor da fonte, espaçamento, borda, cor de fundo, largura, efeito, margem */
+.c-footer__form-end {
+    font-family: inherit;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: hsl(0,0%,100%);
+    padding: 0.7rem 1.6rem 1.4rem 2.4rem;
+    border-radius: 2px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid hsl(0,0%,100%);
+    width: 100%;
+    display: block;
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    margin-top: 5rem;
+    outline: none;
+}
+
+/* definir tamanho da fonte, negrito, borda, cor de fundo, tipo de cursor, posicionamento da flutuação, margem, tipo de fonte */
+.c-footer__button-submit {
+    font-size: .9rem;
+    font-weight: bold;
+    color: hsl(0,0%,100%);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    float: right;
+    border-bottom: 0.15rem solid #4de29f;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    letter-spacing: 0.229rem;
+    line-height: 2.6rem;
+    padding-bottom: 0.01rem;
+    font-family: inherit;
+}
+
+/* definir alinhamento, borda */
+.c-footer__end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid hsl(0,0%,100%);
+}
+
+/* definir alinhamento, retirar estilo, margem */
+.c-footer__end nav {
+    display: flex;
+    list-style-type: none;
+    margin-top: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+/* definir largura, altura */
+.c-footer__end nav a {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+/* definir tamanho da fonte, negrito, retirar sublinhado, espaçamento, mergem */
+a.c-footer__name-end  {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+/* definir espaçamento */
+a.c-footer__whats-end, 
+a.c-footer__git-end,
+a.c-footer__mail-end,
+a.c-footer__linke-end,
+a.c-footer__insta-end {
+    padding: 1rem;
+}
+
+/* definir tamanho da fonte */
+.c-footer__git-end i,
+.c-footer__whats-end i,
+.c-footer__mail-end i,
+.c-footer__linke-end i,
+.c-footer__insta-end i,
+.c-text__git-start i,
+.c-text__insta-start i,
+.c-text__linke-start i,
+.c-text__email-start i,
+.c-text__whats-start i {
+    font-size: 1.5rem;
+}
+
+/* retirar borda */
+.c-text__email-start,
+.c-footer__mail-end {
+    border: none;
+}
+
+/* definir alinhamento, retirar sublinhado, definir borda */
+.c-text__icons a,
+.c-footer__icons a {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    text-decoration: none;
+}
+
+/* definir alteração de estado - cor da fonte */
+a.c-text__name-topo:hover,
+a.c-footer__git-end:hover,
+a.c-footer__whats-end:hover,
+a.c-footer__mail-end:hover,
+a.c-footer__linke-end:hover,
+a.c-footer__insta-end:hover,
+a.c-text__git-start:hover,
+a.c-text__contact:hover,
+a.c-footer__name-end:hover,
+a.c-section-tree__contact-two:hover,
+a.c-text__insta-start:hover,
+a.c-text__linke-start:hover,
+a.c-text__email-start:hover,
+a.c-text__whats-start:hover,
+.c-footer__button-submit:hover {
+    color: #4CE19E;
+}
+
+/* definir cor da fonte */
+::placeholder {
+    color: #929292;
+}
+
+/* definir cor de fundo, largura, borda */
+::-webkit-scrollbar {
+    background-color: #ffffffe3;
+    width: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 0px;
+}
+
+/*  */
+@media screen and (min-width: 481px) and (max-width: 767px) {}
+
+/*  */
+@media screen and (min-width: 768px) and (max-width: 991px) {}
+
+/*  */
+@media screen and (min-width: 992px) {
+    /*.c-text__spiral {
+        content: url(/assets/img/pattern-rings.svg);
+        position: absolute;
+        margin-top: 1rem;
+        margin-top: -32.56rem;
+        margin-left: 8rem;
+        left: 1px;
+    }*/
+}
